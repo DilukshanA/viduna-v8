@@ -1,0 +1,293 @@
+.our{
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: black;
+}
+
+.our h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.our-white{
+    color: #ffffff;
+    display: flex;
+    gap: 10px;
+}
+
+.our-red{
+    color: #ff2626;
+}
+
+.our-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.our-left{
+    
+    padding-right: 71px;
+    display: flex;
+
+}
+
+.our-middle{
+    width: 30%;
+    height: 220px;
+    text-align: justify;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+.our-middle h1{
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.our-middle-white{
+    color: #ffffff;
+    display: flex;
+    gap: 10px;
+}
+
+.our-middle-red{
+    color: #ff2626;
+}
+
+.our-middle p{
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+
+.our-right{
+    
+    display: flex;
+    padding-left: 86px;
+}
+
+.our-right-signup{
+    padding-left: 10px;
+}
+
+
+
+@media(max-width:1280px){
+
+    .our-middle p{
+        font-size: 16px;
+        font-weight: 500;
+    
+    }
+
+}
+
+@media(max-width:1024px){
+
+    .our h1{
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+    .our-middle p{
+        font-size: 14px;
+        font-weight: 500;
+    
+    }
+
+    .our-left img{
+        scale: 0.8;
+    }
+
+    .our-right img{
+        scale: 0.8;
+    }
+
+    .our-right{
+    
+        display: flex;
+        padding-left: 70px;
+    }
+    
+    .our-right-signup{
+        padding-left: 0px;
+    }
+    
+
+}
+
+@media(max-width:800px){
+
+    .our{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+  
+    }
+    
+    .our h1{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    .our-white{
+        color: #ffffff;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .our-red{
+        color: #ff2626;
+    }
+    
+    .our-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .our-left{
+        display: none;
+       
+        
+    
+    }
+    
+    .our-middle{
+        width: 60%;
+        height: 220px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    
+    .our-middle h1{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    
+    .our-middle-white{
+        color: #ffffff;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .our-middle-red{
+        color: #ff2626;
+    }
+    
+    .our-middle p{
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+    
+    }
+    
+    .our-right{
+        
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .our-right-signup{
+        padding-right: 80px;
+    }
+}
+
+
+@media(max-width:500px){
+
+    .our{
+        height: 60vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    
+    .our h1{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .our-white{
+        color: #ffffff;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .our-red{
+        color: #ff2626;
+    }
+    
+    .our-bottom{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .our-left{
+        display: none;
+       
+        
+    
+    }
+    
+    .our-middle{
+        width: 60%;
+        height: 220px;
+        text-align:center;
+        display: flex;
+        align-items: center;
+        
+    }
+    
+    
+    .our-middle h1{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    
+    .our-middle-white{
+        color: #ffffff;
+        display: flex;
+        gap: 10px;
+    }
+    
+    .our-middle-red{
+        color: #ff2626;
+    }
+    
+    .our-middle p{
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    
+    }
+    
+    .our-right{
+        
+        display: flex;  
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .our-right-signup{
+        padding-right: 80px;
+    }
+}

@@ -1,0 +1,160 @@
+.heronew{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../Components/Assets/hero.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*
+    padding-left: 10%;
+    padding-right: 10%;
+    */
+    
+}
+
+.heronew-text{
+    text-align: center;
+    max-width: 800px;
+ 
+}
+
+.heronew-text h1{
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.heronew-text p{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
+
+.heronew-btn{
+    background: #fff;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heronew-btn img{
+    width: 20px;
+    margin-left: 10px;
+}
+
+
+.heronew-btn:hover{
+    background: linear-gradient(160deg, rgb(33, 58, 220), #ffffff, rgb(33, 58, 220));
+    color: black
+}
+
+@media(max-width:1280px){
+
+}
+
+@media(max-width:1024px){
+    .heronew-text{
+        text-align: center;
+        max-width: 600px;
+     
+    }
+    
+    .heronew-text h1{
+        font-size: 36px;
+        font-weight: 600;
+    }
+    
+    .heronew-text p{
+        max-width: 700px;
+        margin: 10px auto 20px;
+        line-height: 1.4;
+        max-width: 500px;
+        font-size: 14px;
+    }
+    
+    .heronew-btn{
+        scale: 0.9;
+    }
+    
+    .heronew-btn img{
+        width: 20px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:800px){
+    
+    .heronew-text{
+        text-align: center;
+        max-width: 400px;
+        
+     
+    }
+    
+    .heronew-text h1{
+        font-size: 32px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+    
+    .heronew-text p{
+        max-width: 700px;
+        margin: 10px auto 20px;
+        line-height: 1.4;
+        max-width: 300px;
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    
+    .heronew-btn{
+        scale: 0.9;
+    }
+    
+    .heronew-btn img{
+        width: 20px;
+        margin-left: 10px;
+    }
+}
+
+@media(max-width:500px){
+
+    .heronew-text{
+        text-align: center;
+        max-width: 220px;
+        
+     
+    }
+    
+    .heronew-text h1{
+        font-size: 24px;
+        font-weight: 600;
+        padding-bottom: 30px;
+    }
+    
+    .heronew-text p{
+        max-width: 700px;
+        margin: 10px auto 20px;
+        line-height: 1.4;
+        max-width: 200px;
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+    
+    .heronew-btn{
+        scale: 0.72;
+    }
+    
+    .heronew-btn img{
+        width: 20px;
+        margin-left: 10px;
+    }
+}

@@ -1,0 +1,386 @@
+.offers{
+    
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 0px 140px;
+    /*margin-bottom: 150px;*/
+    padding-bottom: 150px;
+    padding-top: 150px;
+    background: black;
+    gap:30px;
+    
+}
+
+.offers h1{
+    
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.offers p{
+    color: white;
+    font-size: 18px;
+}
+
+.offers-button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: black;
+    width: 730px;
+    height: 70px;
+    border-radius: 80px;
+    border: 2px solid #e3e3e3;
+    
+}
+
+.offers input{
+    width: 500px;
+    margin-left: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    font-family: poppins;
+    font-size: 16px;
+    background: black;
+}
+
+
+.offers div button{
+    width: 210px;
+    height: 70px;
+    border-radius: 80px;
+    background: white;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.offers div button:hover{
+    background: linear-gradient(160deg, rgb(33, 58, 220), #ffffff, rgb(33, 58, 220));
+    color: black;
+    font-size: 18px;
+    transition: 0.5s;
+}
+
+.offers-white{
+    color: #ffffff;
+    display: flex;
+    padding-right: 16px;
+}
+
+.offers-red{
+    color: #ff2626;
+    
+}
+
+.offers-head{
+    display: flex;
+}
+
+
+@media(max-width:1280px){
+
+    .offers{
+    
+        height: 40vh;
+        padding: 0px 140px;
+        /*margin-bottom: 150px;*/
+        padding-bottom: 150px;
+        padding-top: 150px;
+        gap:30px;
+        
+    }
+    
+    .offers h1{
+        
+        font-size: 40px;
+        font-weight: 600;
+    }
+    
+    .offers p{
+        color: white;
+        font-size: 17px;
+    }
+    
+    .offers-button{
+
+        scale: 0.8;
+    }
+
+}
+
+
+@media(max-width:1024px){
+
+    .offers{
+    
+        height: 40vh;
+        padding: 0px 140px;
+        /*margin-bottom: 150px;*/
+        padding-bottom: 100px;
+        padding-top: 100px;
+        gap:30px;
+        
+    }
+    
+    .offers h1{
+        
+        font-size: 28px;
+        font-weight: 600;
+    }
+    
+    .offers p{
+        color: white;
+        font-size: 16px;
+    }
+    
+    .offers-button{
+
+        scale: 0.62;
+    }
+
+}
+
+
+@media(max-width:800px){
+
+    .offers{
+    
+        height: 40vh;
+        padding: 0px 140px;
+        /*margin-bottom: 150px;*/
+        padding-bottom: 80px;
+        padding-top: 80px;
+        gap:30px;
+        
+    }
+    
+    .offers h1{
+        
+        font-size: 20px;
+        font-weight: 600;
+
+
+    }
+    
+    .offers p{
+        color: white;
+        font-size: 14px;
+        text-align: center;
+    }
+    
+    .offers-button{
+
+        scale: 0.45;
+    }
+
+    .offers-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .offers-white{
+        padding-right: 0px;
+    }
+
+}
+
+@media(max-width:500px){
+
+    .offers{
+    
+        height: 40vh;
+        padding: 0px 140px;
+        /*margin-bottom: 150px;*/
+        padding-bottom: 30px;
+        padding-top: 30px;
+        gap:30px;
+        
+    }
+    
+    .offers h1{
+        
+        font-size: 14px;
+        font-weight: 600;
+
+
+    }
+    
+    .offers p{
+        color: white;
+        font-size: 11px;
+    }
+    
+    .offers-button{
+
+        scale: 0.36;
+    }
+
+    .offers-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .offers-white{
+        padding-right: 0px;
+    }
+
+}
+
+/*
+@media(max-width:450px){
+
+    .offers{
+    
+        height: 40vh;
+        
+        padding: 0px 0px;
+        
+        padding-bottom: 25px;
+        padding-top: 25px;
+        gap:30px;
+        margin: 0px;
+        
+    }
+    
+    .offers h1{
+        
+        font-size: 14px;
+        font-weight: 600;
+        width: 300px;
+        padding-left: 100px;
+        gap: 0px;
+    }
+    
+    .offers p{
+        color: white;
+        font-size: 10px;
+        width: 300px;
+    }
+    
+    .offers-button{
+
+        scale: 0.28;
+    }
+
+    .offers-head{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 300px;
+        padding: 0px;
+        margin: 0px;
+
+    }
+
+    .offers-white{
+        padding-right: 0px;
+        gap: 0px;
+    }
+    .offers-red{
+        gap: 0px;
+        margin-left: 50px;
+        
+    }
+
+}
+*/
+
+@media(max-width:450px){
+    .offers{
+    
+        height: 40vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+        padding: 0px 30px;
+        /*margin-bottom: 150px;*/
+        padding-bottom: 30px;
+        padding-top: 80px;
+        background: black;
+        gap:25px;
+        
+    }
+    
+    .offers h1{
+        
+        font-size: 20px;
+        font-weight: 600;
+    }
+    
+    .offers p{
+        color: white;
+        font-size: 14px;
+    }
+    
+    .offers-button{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: black;
+        width: 730px;
+        height: 70px;
+        border-radius: 80px;
+        border: 2px solid #e3e3e3;
+        
+    }
+    
+    .offers input{
+        width: 500px;
+        margin-left: 30px;
+        border: none;
+        outline: none;
+        color: white;
+        font-family: poppins;
+        font-size: 16px;
+        background: black;
+    }
+    
+    
+    .offers div button{
+        width: 210px;
+        height: 70px;
+        border-radius: 80px;
+        background: white;
+        color: black;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    
+    .offers div button:hover{
+        background: linear-gradient(160deg, rgb(33, 58, 220), #ffffff, rgb(33, 58, 220));
+        color: black;
+        font-size: 18px;
+        transition: 0.5s;
+    }
+    
+    .offers-white{
+        color: #ffffff;
+        display: flex;
+        padding-right: 0px;
+    }
+    
+    .offers-red{
+        color: #ff2626;
+        
+    }
+    
+    .offers-head{
+        display: flex;
+    }
+    
+}

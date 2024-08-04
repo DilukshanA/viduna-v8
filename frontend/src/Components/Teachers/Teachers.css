@@ -1,0 +1,302 @@
+.teachers{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    height: auto;
+    background-color: rgb(0, 0, 0);
+
+
+
+}
+
+
+
+.teachers h1{
+    font-size: 54px;
+    font-weight: 600;
+}
+
+.teachers-white{
+    color: #ffffff;
+    display: flex;
+    gap: 20px;
+}
+
+.teachers-red{
+    color: #ff2626;
+}
+
+.teachers-card{
+    margin-top: 50px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+
+
+
+
+
+
+@media(max-width:1280px){
+    
+    .teachers-card{
+        margin-top: 50px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .teachers{
+        padding-top: 120px;
+        padding-bottom: 80px;
+        gap:20px;
+
+    }
+
+    .teachers-card{
+        margin-top: 40px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    
+
+}
+
+@media(max-width:1024px){
+    
+    .teachers-card{
+        margin-top: 50px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .teachers{
+        padding-top: 93px;
+        padding-bottom: 62px;
+        gap:20px;
+
+    }
+
+    .teachers-card{
+        margin-top: 31px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .teachers h1{
+        font-size: 46px;
+        font-weight: 600;
+    }
+
+}
+
+@media(max-width:800px){
+    
+    .teachers-card{
+        margin-top: 25px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .teachers{
+        padding-top: 75px;
+        padding-bottom: 50px;
+        gap:20px;
+    }
+
+    .teachers-card{
+        margin-top: 25px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .teachers h1{
+        font-size: 42px;
+        font-weight: 600;
+    }
+
+}
+
+@media(max-width:650px){
+    
+    .teachers-card{
+        margin-top: 25px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .teachers{
+        padding-top: 75px;
+        padding-bottom: 50px;
+        gap:20px;
+    }
+
+    .teachers-card{
+        margin-top: 25px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .teachers h1{
+        font-size: 42px;
+        font-weight: 600;
+    }
+
+}
+
+@media(max-width:450px){
+    
+    .teachers-card{
+        margin-top: 25px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr 1fr 1fr;
+
+    }
+
+    .teachers{
+        padding-top: 75px;
+        padding-bottom: 50px;
+        gap:20px;
+    }
+
+    .teachers-card{
+        margin-top: 25px;
+        display: grid;
+        gap: 20px;
+        grid-template-columns: 1fr;
+    }
+
+    .teachers h1{
+        font-size: 32px;
+        font-weight: 600;
+    }
+
+}
+
+/*
+
+
+@media(max-width:1280px){
+
+    .teachers{
+        padding-top: 0px;
+        height: 90vh;
+        
+
+    }
+
+    .teachers-scale{
+        scale: 0.8;
+
+        padding-top: 0px;
+        margin-top: 0px;
+        
+    }
+
+    
+
+}
+
+@media(max-width:1024px){
+
+    .teachers{
+        padding-top: 0px;
+        height: 80vh;
+        
+
+    }
+
+    .teachers-scale{
+        scale: 0.72;
+
+        padding-top: 0px;
+        margin-top: 0px;
+        
+    }
+
+    
+
+}
+
+@media(max-width:900px){
+
+    .teachers{
+        padding-top: 0px;
+        height: 70vh;
+        
+    }
+
+    .teachers-scale{
+        scale: 0.63;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+}
+
+@media(max-width:800px){
+
+    .teachers{
+        padding-top: 0px;
+        height: 60vh;
+        
+    }
+
+    .teachers-scale{
+        scale: 0.55;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+}
+
+@media(max-width:700px){
+
+    .teachers{
+        padding-top: 0px;
+        height: 55vh;
+        
+    }
+
+    .teachers-scale{
+        scale: 0.48;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+}
+
+@media(max-width:600px){
+
+    .teachers{
+        padding-top: 0px;
+        height: 55vh;
+        
+    }
+
+    .teachers-scale{
+        scale: 0.45;
+        padding-top: 0px;
+        margin-top: 0px;
+    }
+
+
+}
+
+*/

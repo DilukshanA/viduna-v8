@@ -1,0 +1,202 @@
+.user-profile{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: black;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-profile-details{
+    background: rgb(255, 255, 255);
+    width: 440px;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    padding-left: 50px;
+    gap: 20px;
+    border-radius: 25px;
+    border: 1px solid black;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+.user-profile-details li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.user-profile-details li p{
+
+}
+.user-profile-details li h3{
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.user-profile-details-btn{
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    background: #6079ff;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.user-profile-details-btn:hover{
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.user-profile-details-btn.cancel{
+    background: #ff2626;
+}
+
+.user-profile-details-btn.cancel:hover{
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+
+.user-profile-details-btn.next:hover{
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.update-user-check-container-wrong-password{
+    color: #ff2626;
+}
+
+.update-user-inputfield-user-profile{
+        
+    width: 100%;
+    color: #7b7b7b;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+.update-user-inputfield-user-profile input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 1px solid #c3c3c3;
+    outline: none;
+    color: #7b7b7b;
+    font-family: "poppins";
+    font-size: 14px;
+    
+}
+
+
+
+.update-user-check-container{
+    display: flex;
+    flex-direction: column;
+    
+    width: 80%;
+}
+
+@media(max-width:620px){
+
+    .user-profile-details{
+        width: 360px;
+    }
+
+    .user-profile-details li h3{
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+
+@media(max-width:500px){
+
+    .user-profile-details{
+        width: 280px;
+    }
+
+    .user-profile-details li h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .user-profile-details-btn{
+        margin-top: 10px;
+        width: 140px;
+        height: 40px;
+        border-radius: 6px;
+        background: #6079ff;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .update-user-inputfield-user-profile{
+
+    }
+
+.update-user-inputfield-user-profile{
+        
+    font-size: 14px; 
+}
+.update-user-inputfield-user-profile p{
+        
+    padding-bottom: 10px;
+}
+}
+
+@media(max-width:400px){
+
+    .user-profile-details{
+        width: 250px;
+        padding-left: 30px;
+    }
+
+    .user-profile-details li h3{
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .user-profile-details-btn{
+        margin-top: 10px;
+        width: 120px;
+        height: 40px;
+        border-radius: 6px;
+        background: #6079ff;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .update-user-inputfield-user-profile{
+
+    }
+
+.update-user-inputfield-user-profile{
+        
+    font-size: 14px; 
+}
+.update-user-inputfield-user-profile p{
+        
+    padding-bottom: 10px;
+}
+}

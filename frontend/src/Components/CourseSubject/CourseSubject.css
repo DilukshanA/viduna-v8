@@ -1,0 +1,145 @@
+.course-subject{
+    
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    height: auto;
+    background-color: black;
+    
+}
+
+.courses-subject{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 54px;
+    background: linear-gradient(160deg, #1500ff, #ff2626, rgb(255, 255, 255));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 60px;
+}
+
+.courses-subject-item{
+    
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    
+}
+
+.courses-subject-item-return{
+    text-decoration: none;
+}
+
+
+@media(max-width:1280px){
+
+    .course-subject{
+    
+        padding-top: 50px;
+        padding-bottom: 100px;
+        gap:20px;
+        height: auto;
+    }
+    
+    .courses-subject{
+
+        font-size: 50px;
+    }
+    
+    .courses-subject-item{
+        
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        
+    }
+    
+}
+
+@media(max-width:1024px){
+
+    .course-subject{
+    
+        padding-top: 50px;
+        padding-bottom: 100px;
+        gap:20px;
+        height: auto;
+    }
+    
+    .courses-subject{
+
+        font-size: 36px;
+    }
+    
+    .courses-subject-item{
+        
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 20px;
+        
+    }
+    
+}
+
+@media(max-width:800px){
+
+    .course-subject{
+    
+        padding-top: 50px;
+        padding-bottom: 100px;
+        gap:20px;
+        height: auto;
+    }
+    
+    .courses-subject{
+
+        font-size: 36px;
+    }
+    
+    .courses-subject-item{
+        
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        
+    }
+    
+}
+
+@media(max-width:650px){
+
+    .courses-subject-item{
+        
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        
+    }
+}
+
+@media(max-width:450px){
+
+    .courses-subject{
+
+        font-size: 26px;
+    }
+
+    .courses-subject-item{
+        
+        margin-top: 50px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+        
+    }
+}

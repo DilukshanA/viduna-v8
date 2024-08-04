@@ -1,0 +1,681 @@
+.contact{
+    padding-top: 150px;
+    padding-bottom: 200px;
+    
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding-left: 120px;
+    padding-right: 120px;
+    
+}
+
+.contact-top{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+
+.contact-top h1{
+    font-size: 36px;
+    text-align: center;
+}
+
+.contact-top p{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: rgb(221, 218, 218);
+    text-align: center;
+
+}
+
+.contact-top hr{
+    
+    height: 2px;
+    background: rgb(221, 218, 218);;
+    border: 0;
+    width: 75%;
+}
+
+.contact-bottom-main{
+ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 110px;
+}
+
+.contact-bottom-web-owner{
+    
+    width: 450px;
+    background: rgb(77, 61, 61);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid white;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    border-radius: 25px;
+    background: linear-gradient(160deg, #000000, #191717, rgb(0, 0, 0));
+
+}
+
+.owner-pic:hover{
+    scale: 1.1;
+    transition: 0.4s;
+}
+
+.contact-bottom-web-owner:hover{
+    scale: 1.05;
+    transition: 0.4s;
+    background: linear-gradient(160deg, #000000, #3d2839, rgb(0, 0, 0));
+    border: 1px solid white;
+}
+
+.contact-bottom-web-owner-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+.contact-bottom{
+    display: flex;
+    /*align-items: center;
+    gap: 100px;*/
+    justify-content: space-between;
+    gap: 50px;
+    padding-top: 100px;
+    width: 100%;
+
+    
+
+}
+
+.contact-bottom-left{
+
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+.contact-bottom-left h1{
+    font-size: 28px;
+
+}
+
+.contact-bottom-left p{
+    font-size: 16px;
+}
+.contact-bottom-left span{
+    font-size: 16px;
+}
+
+.contact-bottom-left-social-icon{
+    display: flex;
+    gap: 15px;
+}
+
+.contact-bottom-left-social-icon img{
+    width: 30px;
+}
+
+.contact-bottom-left-whatsapp{
+    width: 30px;
+    height: 30px;
+}
+
+.contact-bottom-left-telegram{
+    width: 30px;
+    height: 30px;
+}
+
+.contact-bottom-left-social-icon img:hover{
+    scale: 1.2;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.contact-bottom-left-mail:hover{
+    color: #ff2626;
+    cursor: pointer;
+    scale: 1.02;
+    transition: 0.3s;
+}
+
+.contact-bottom-right{
+
+}
+
+.contact-bottom.web-owner-container{
+    display: none;
+}
+
+.owner-pic{
+    width: 100px;
+    height: 100px;
+}
+
+.contact-bg-image{
+    display: none;
+}
+
+
+@media(max-width:1280px){
+
+    .contact{
+        padding-top: 150px;
+        padding-bottom: 200px;
+       
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding-left: 120px;
+        padding-right: 120px;
+        
+    }
+    
+    .contact-top{
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        justify-content: center;
+        
+    
+    
+    }
+    
+    .contact-top h1{
+        font-size: 32px;
+        text-align: center;
+    }
+    
+    .contact-top p{
+        padding-top: 30px;
+        padding-bottom: 20px;
+        font-size: 15px;
+        color: rgb(221, 218, 218);
+        text-align: center;
+    
+    }
+    
+    .contact-top hr{
+        
+        height: 2px;
+        background: rgb(221, 218, 218);;
+        border: 0;
+        width: 75%;
+    }
+    
+    
+    .contact-bottom{
+        display: flex;
+        align-items: center;
+        gap: 100px;
+        padding-top: 100px;
+        
+    
+    }
+    
+    .contact-bottom-left{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+    .contact-bottom-left h1{
+        font-size: 26px;
+    
+    }
+    
+    .contact-bottom-left p{
+        font-size: 15px;
+    }
+    .contact-bottom-left span{
+        font-size: 15px;
+    }
+    
+    .contact-bottom-left-social-icon{
+        display: flex;
+        gap: 15px;
+    }
+    
+    .contact-bottom-left-social-icon img{
+        width: 30px;
+    }
+    
+    .contact-bottom-left-social-icon img:hover{
+        scale: 1.2;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .contact-bottom-left-mail:hover{
+        color: #ff2626;
+        cursor: pointer;
+    }
+    
+    .contact-bottom-right{
+    
+    }
+    .contact-bottom-main{
+        gap: 80px;
+    }
+    
+}
+
+
+@media(max-width:1024px){
+
+    .contact{
+        padding-top: 150px;
+        padding-bottom: 200px;
+       
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding-left: 120px;
+        padding-right: 120px;
+        
+    }
+    
+    .contact-top{
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        justify-content: center;
+
+        
+    
+    
+    }
+    
+    .contact-top h1{
+        font-size: 28px;
+        text-align: center;
+    }
+    
+    .contact-top p{
+        padding-top: 25px;
+        padding-bottom: 10px;
+        font-size: 14px;
+        color: rgb(221, 218, 218);
+        text-align: center;
+    
+    }
+    
+    .contact-top hr{
+        
+        height: 2px;
+        background: rgb(221, 218, 218);;
+        border: 0;
+        width: 75%;
+    }
+    
+    
+    .contact-bottom{
+        display: flex;
+        align-items: center;
+        
+        gap: 40px;
+        padding-top: 80px;
+
+    
+    }
+    
+    .contact-bottom-left{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    
+    }
+    .contact-bottom-left h1{
+        font-size: 20px;
+    
+    }
+    
+    .contact-bottom-left p{
+        font-size: 13px;
+    }
+    .contact-bottom-left span{
+        font-size: 13px;
+    }
+    
+    .contact-bottom-left-social-icon{
+        display: flex;
+        gap: 15px;
+    }
+    
+    .contact-bottom-left-social-icon img{
+        width: 25px;
+    }
+    
+    .contact-bottom-left-social-icon img:hover{
+        scale: 1.2;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .contact-bottom-left-mail:hover{
+        color: #ff2626;
+        cursor: pointer;
+    }
+    
+    .contact-bottom-right img{
+        scale: 0.8;
+    }
+
+}
+
+@media(max-width:800px){
+
+    .contact-bottom-main{
+        gap: 40px;
+    }
+
+    .contact-bottom-right-viduna-img{
+        display: none;
+    }
+
+    .contact{
+        padding-top: 130px;
+        padding-bottom: 80px;
+    
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        padding-left: 50px;
+        padding-right: 50px;
+        
+    }
+    
+    .contact-top{
+        display: flex;
+        flex-direction: column;
+    
+        align-items: center;
+        justify-content: center;
+
+        
+    
+    
+    }
+    
+    .contact-top h1{
+        font-size: 24px;
+        text-align: center;
+    }
+    
+    .contact-top p{
+        padding-top: 25px;
+        padding-bottom: 10px;
+        font-size: 14px;
+        color: rgb(221, 218, 218);
+        text-align: center;
+    
+    }
+    
+    .contact-top hr{
+        
+        height: 2px;
+        background: rgb(221, 218, 218);;
+        border: 0;
+        width: 75%;
+    }
+    
+    
+    .contact-bottom{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        
+        gap: 40px;
+        padding-top: 50px;
+
+    
+    }
+    
+    .contact-bottom-left{
+    
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        background: linear-gradient(160deg, #000000, #191717, rgb(0, 0, 0));
+        border: 1px solid white;
+        border-radius: 15px;
+        margin: 20px;
+        padding: 20px;
+    
+    }
+
+    .contact-bottom-left:hover{
+        scale: 1.05;
+        transition: 0.4s;
+        background: linear-gradient(160deg, #000000, #3d2839, rgb(0, 0, 0));
+    }
+
+    .contact-bottom-left h1{
+        font-size: 20px;
+    
+    }
+    
+    .contact-bottom-left p{
+        font-size: 13px;
+    }
+    .contact-bottom-left span{
+        font-size: 13px;
+    }
+
+    
+
+
+
+
+
+
+    
+    .contact-bottom-left-social-icon{
+        display: flex;
+        gap: 15px;
+    }
+    
+    .contact-bottom-left-social-icon img{
+        width: 25px;
+    }
+    
+    .contact-bottom-left-social-icon img:hover{
+        scale: 1.2;
+        transition: 0.4s;
+        cursor: pointer;
+    }
+    .contact-bottom-left-mail:hover{
+        color: #ff268f;
+        cursor: pointer;
+        scale: 1.02;
+        transition: 0.3s;
+    }
+    
+    .contact-bottom-right img{
+        scale: 0.8;
+    }
+
+
+
+    .contact-bottom-web-owner{
+        width: 400px;
+        background: rgb(77, 61, 61);
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+        display: flex;
+        
+        justify-content: space-around;
+        gap: 10px;
+        border-radius: 20px;
+        background: linear-gradient(160deg, #000000, #191717, rgb(0, 0, 0));
+    
+    }
+
+    .owner-pic{
+        width: 80px;
+        height: 80px;
+    }
+
+    .contact-bottom-left-whatsapp{
+        width: 30px;
+        height: 30px;
+    }
+    .contact-bottom-left-telegram{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .contact-bottom-web-owner:hover{
+        scale: 1.05;
+        transition: 0.4s;
+        background: linear-gradient(160deg, #000000, #3d2839, rgb(0, 0, 0));
+        border: 1px solid white;
+    }
+    .contact-bottom-web-owner-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .contact-bottom-web-owner h1{
+        font-size: 30px;
+    }
+    .contact-bottom-web-owner p{
+        font-size: 15px;
+    }
+    .contact-bottom-web-owner span{
+        font-size: 15px;
+    }
+
+    .contact-bg-image{
+        padding-top: 50px;
+        display: flex;
+    }
+    
+
+}
+
+
+@media(max-width:500px){
+    .contact-bottom-web-owner{
+        width: 300px;
+        background: rgb(77, 61, 61);
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+        display: flex;
+        
+   
+        gap: 10px;
+        border-radius: 20px;
+        background: linear-gradient(160deg, #000000, #191717, rgb(0, 0, 0));
+    
+    }
+
+    .owner-pic{
+        width: 60px;
+        height: 60px;
+    }
+
+    .contact-bottom-web-owner h1{
+        font-size: 20px;
+    }
+    .contact-bottom-web-owner p{
+        font-size: 13px;
+    }
+    .contact-bottom-web-owner span{
+        font-size: 13px;
+    }
+    
+    .contact-bottom-web-owner:hover{
+        scale: 1.05;
+        transition: 0.4s;
+        background: linear-gradient(160deg, #000000, #3d2839, rgb(0, 0, 0));
+        border: 1px solid white;
+    }
+
+    .contact-bottom-left-whatsapp{
+        width: 25px;
+        height: 25px;
+    }
+    .contact-bottom-left-telegram{
+        width: 25px;
+        height: 25px;
+    }
+
+    .contact-bg-image{
+        padding-top: 50px;
+        display: flex;
+        width: 260px;
+    }
+}
+
+
+@media(max-width:400px){
+    .contact-bottom-web-owner{
+        width: 260px;
+        background: rgb(77, 61, 61);
+        padding-top: 50px;
+        padding-bottom: 50px;
+       
+        display: flex;
+  
+        
+        gap: 10px;
+        border-radius: 20px;
+        background: linear-gradient(160deg, #000000, #191717, rgb(0, 0, 0));
+    
+    }
+
+    .contact-bottom{
+        width: 300px;
+    }
+
+    .owner-pic{
+        width: 50px;
+        height: 50px;
+    }
+    
+    .contact-bottom-web-owner:hover{
+        scale: 1.05;
+        transition: 0.4s;
+        background: linear-gradient(160deg, #000000, #3d2839, rgb(0, 0, 0));
+        border: 1px solid white;
+    }
+
+    .contact-bg-image{
+        padding-top: 50px;
+        display: flex;
+        width: 240px;
+    }
+
+ 
+}

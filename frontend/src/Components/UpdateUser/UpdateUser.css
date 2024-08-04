@@ -1,0 +1,125 @@
+.update-user{
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.update-user-container{
+    background: rgb(32, 31, 31);
+    width: 35vw;
+    padding: 50px;
+    border-radius: 20px;
+    
+    
+}
+
+.update-user-inputfield{
+    
+    width: 100%;
+    color: #7b7b7b;
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.update-user-inputfield input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 1px solid #c3c3c3;
+    outline: none;
+    color: #7b7b7b;
+    font-family: "poppins";
+    font-size: 14px;
+}
+
+.update-user-container button{
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    background: #6079ff;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.update-user-container button:hover{
+    background: black;
+    color: white;
+    border: 2px solid white;
+}
+
+@media(max-width:700px){
+
+    .update-user-container button{
+        margin-top: 20px;
+        width: 140px;
+        height: 40px;
+        border-radius: 6px;
+        background: #6079ff;
+        border: none;
+        cursor: pointer;
+        color: white;
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+
+@media(max-width:500px){
+
+    .update-user-container{
+        background: rgb(32, 31, 31);
+        width: 45vw;
+        padding: 50px;
+        border-radius: 20px;
+        
+        
+    }
+
+    .update-user-container button{
+        margin-top: 20px;
+        width: 130px;
+        height: 40px;
+        border-radius: 6px;
+
+        font-size: 14px;
+        font-weight: 500;
+    }
+}
+
+
+@media(max-width:400px){
+
+    .update-user-container button{
+        margin-top: 20px;
+        width: 120px;
+        height: 36px;
+        border-radius: 6px;
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .update-user-container{
+        width: 50vw;
+
+        border-radius: 20px;
+        
+        
+    }
+
+    .update-user-inputfield input{
+
+        height: 40px;
+
+    }
+}

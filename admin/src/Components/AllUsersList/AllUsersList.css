@@ -1,0 +1,87 @@
+.all-users-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: 80vw;
+    /*
+    width: 100%;
+    max-width: 900px;
+    */
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 6px;
+    background: white;
+
+}
+
+.all-users-list-head{
+    display: flex;
+    align-items: center;
+}
+
+.all-users-list-container{
+    
+    
+}
+
+.all-users-list-container table{
+    gap: 20px;
+    align-items: center;
+    
+}
+
+.all-users-list-table{
+
+}
+
+.all-users-list-table th {
+    padding-right: 100px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.all-users-list-table td {
+    padding-right: 100px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.all-users-list-table tr:hover{
+    background-color: #ededed;
+}
+
+.user-delete-btn{
+    width: 80px;
+    height: 25px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.user-delete-btn:hover{
+    background-color: #ff2626b3;
+    color: white;
+    
+}
+
+@media(max-width:900px){
+    .all-users-list{
+        width: auto;
+        padding: 30px;
+        margin: 20px;
+    }
+
+    .all-users-list-table th {
+        padding-right: auto;
+        padding-top:10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .all-users-list-table td {
+        padding-right: auto;
+        padding-top:10px;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+  
+}

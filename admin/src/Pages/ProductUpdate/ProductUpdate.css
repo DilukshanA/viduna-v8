@@ -1,0 +1,124 @@
+.product-update{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px 50px;
+    margin: 20px 30px;
+    border-radius: 6px;
+    background: white;
+    
+    
+    
+}
+
+.product-update h1{
+    display: flex;
+    justify-content: center;
+}
+
+.update-product-itemfield{
+    width: 100%;
+    color: #7b7b7b;
+    font-size: 16px;
+}
+
+.update-product-itemfield input{
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    border-radius: 4px;
+    padding-left: 15px;
+    border: 1px solid #c3c3c3;
+    outline: none;
+    color: #7b7b7b;
+    font-family: "poppins";
+    font-size: 14px;
+}
+
+.update-product-price-level{
+    display: flex;
+    gap: 40px;
+}
+
+.update-product-selector{
+    padding: 10px;
+    width: 220px;
+    height: 50px;
+    font-size: 14px;
+    color: #7b7b7b;
+    border: 1px solid #7b7b7b;
+    border-radius: 4px;
+}
+
+
+.update-product-image-productimage-with-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.update-product-owner-image-with-title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.update-product-btn{
+    margin-top: 20px;
+    width: 160px;
+    height: 50px;
+    border-radius: 6px;
+    background: #6079ff;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.update-product-btn:hover{
+    background: white;
+    color: #6079ff;
+    border: 2px solid #6079ff;
+    font-weight: 600;
+}
+
+.update-product-image-productimage-area{
+    width: 120px;
+}
+
+.update-owner-image-area{
+    width: 60px;
+}
+
+.update-product-image-productimage{
+    color: #7b7b7b;
+    font-size: 16px;
+}
+
+.update-product-owner-image-with-title{
+    color: #7b7b7b;
+    font-size: 16px;
+}
+
+.default-category{
+    background: #214aff;
+    color: white;
+}
+
+.image-head-title{
+    color: #7b7b7b;
+    font-size: 16px;
+}
+
+
+@media(max-width:800px){
+    .product-update{
+        width: auto;
+        padding: 30px;
+        margin: 20px;
+    }
+    
+}
+
+

@@ -1,0 +1,237 @@
+.item{
+    width: 280px;
+    height: 287px;
+    background: white;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.item-top-name{
+    display: flex;
+    gap:12px;
+}
+
+.item-owner-name{
+    color: #67666C;
+    font-size: 16px;
+    padding-left: 12px;
+}
+
+.item-course-name{
+    color: black;
+    font-size: 16px;
+    padding-top: 12px;
+    padding-left: 20.5px;
+    font-weight: 505;
+}
+
+.item-course-level{
+    color: #67666C;
+    font-size: 14px;
+    padding-top: 25px;
+    padding-left: 20.5px;
+}
+
+.item:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+.item-image{
+    padding-left: 8px;
+    padding-top: 8px;
+}
+
+.item-top-name{
+    padding-top: 20px;
+    padding-left: 20.5px;
+}
+.item-owner-logo{
+    width: 20px;
+    height: 20px;
+}
+
+/*0.8 scaling*/
+
+@media(max-width:1280px){
+    .item{
+        width: 224px;
+        height: 229.6px;
+        background: white;
+        justify-content: center;
+        border-radius: 15px;
+    }
+    
+    .item-top-name{
+        display: flex;
+        gap:9.6px;
+    }
+    
+    .item-owner-name{
+        color: #67666C;
+        font-size: 12.8px;
+        padding-left: 9.6px;
+    }
+    
+    .item-course-name{
+        color: black;
+        font-size: 12.8px;
+        padding-top: 7.68px;
+        padding-left: 16.4px;
+        font-weight: 505;
+    }
+    
+    .item-course-level{
+        color: #67666C;
+        font-size: 11.2px;
+        padding-top: 20px;
+        padding-left: 16.4px;
+    }
+    
+    .item:hover{
+        transform: scale(1.05);
+        transition: 0.6s;
+    }
+    
+    .item-image{
+        padding-left: 6.4px;
+        padding-top: 6.4px;
+        width: 211.2px;
+    }
+    
+    .item-top-name{
+        padding-top: 16px;
+        padding-left: 16.4px;
+    }
+    .item-owner-logo{
+        width: 16px;
+        height: 16px;
+    }
+    
+}
+
+/*0.62 scaling ->264px image * 0.62*/
+
+@media(max-width:1024px){
+    .item{
+        width: 173.6px;
+        height: 177.94px;
+        background: white;
+        justify-content: center;
+        border-radius: 9.3px;
+    }
+    
+    .item-top-name{
+        display: flex;
+        gap:12px;
+    }
+    
+    .item-owner-name{
+        color: #67666C;
+        font-size: 9.92px;
+        padding-left: 7.44px;
+    }
+    
+    .item-course-name{
+        color: black;
+        font-size: 9.92px;
+        padding-top: 7.44px;
+        padding-left: 12.71px;
+        font-weight: 505;
+    }
+    
+    .item-course-level{
+        color: #67666C;
+        font-size: 8.68px;
+        padding-top: 15.5px;
+        padding-left: 12.4px;
+    }
+    
+    .item:hover{
+        transform: scale(1.05);
+        transition: 0.6s;
+    }
+    
+    .item-image{
+        padding-left: 4.96px;
+        padding-top: 4.96px;
+        width: 163.68px;
+    }
+    
+    .item-top-name{
+        padding-top: 12.4px;
+        padding-left: 12.71px;
+    }
+    .item-owner-logo{
+        width: 12.4px;
+        height: 12.4px;
+    }
+}
+
+
+/*0.62 scaling ->264px image * 0.62*/
+
+@media(max-width:800px){
+    .item{
+        width: 173.6px;
+        height: 177.94px;
+        background: white;
+        justify-content: center;
+        border-radius: 9.3px;
+    }
+    
+    .item-top-name{
+        display: flex;
+        gap:12px;
+    }
+    
+    .item-owner-name{
+        color: #67666C;
+        font-size: 9.92px;
+        padding-left: 7.44px;
+    }
+    
+    .item-course-name{
+        color: black;
+        font-size: 9.92px;
+        padding-top: 7.44px;
+        padding-left: 12.71px;
+        font-weight: 505;
+    }
+    
+    .item-course-level{
+        color: #67666C;
+        font-size: 8.68px;
+        padding-top: 15.5px;
+        padding-left: 12.4px;
+    }
+    
+    .item:hover{
+        transform: scale(1.05);
+        transition: 0.6s;
+    }
+    
+    .item-image{
+        padding-left: 4.96px;
+        padding-top: 4.96px;
+        width: 163.68px;
+    }
+    
+    .item-top-name{
+        padding-top: 12.4px;
+        padding-left: 12.71px;
+    }
+    .item-owner-logo{
+        width: 12.4px;
+        height: 12.4px;
+    }
+}
+
+
+/*   dark css   */
+
+.light .item{
+    border: 1px solid #67666C;
+}
+
+
